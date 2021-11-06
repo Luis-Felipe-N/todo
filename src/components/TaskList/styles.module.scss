@@ -1,0 +1,103 @@
+.taskListContainer {
+    padding: 2rem;
+    min-height: 150px;
+    width: 70vw;
+    border-radius: 10px;
+    background-color: var(--background);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin: -100px auto 0;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        color:  var(--color-light-grayish);
+
+        form {
+            display: flex;
+            input {
+                max-width: 250px;
+                width: 100%;
+                height: 40px;
+                font-size: 1rem;
+                padding: 0 1rem;
+                background-color: rgba(191, 191, 191, 0.1);
+                border: 0;
+                border-radius: 5px 0 0 5px;
+                color: var(--color-light-grayish);
+
+                &:focus, &:active {
+                    outline: 0;
+                    box-shadow: 0 0 0 2px rgba(191, 191, 191, 0.4) ;
+                }
+            }
+
+            button {
+                padding: 0 1rem;
+                border: 0;
+                font-size: .875rem;
+                font-weight: 600;
+                color: #fff;
+                background-color: rgba(32, 191, 85, 01);
+                cursor: pointer;
+                border-radius: 0 5px 5px 0;
+                transition: .2s;
+
+                &:hover {
+                    filter: brightness(.8);
+                }
+            }
+        }
+    }
+
+    main {
+        
+        .taskItem {
+            margin-top: 1rem;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+            font-size: 1.2rem;
+
+            input {
+                cursor: pointer;
+            }
+        
+            button {
+                margin-left: auto;
+                line-height: 0;
+                font-size: 1.3rem;
+                color: red;
+                width: 50px;
+                height: 50px;
+                background-color: transparent;
+                border: 0;
+                border-radius: 100%;
+                cursor: pointer;
+                transition: .2s;
+        
+                &:hover {
+                    background-color: rgba(255, 0, 0, 0.2);
+                }
+            }
+        }
+        
+        .taskItem.complete {
+            text-decoration: line-through;
+            font-style: italic;
+            color: var(--color-light-grayish-hover);
+        }
+    }
+
+}
+
+
+// @media (max-width: 700px) {
+//     .addContainer {
+//         &__header {
+//             display: flex;
+//             flex-direction: column;
+//         }
+//     }
+// }

@@ -1,0 +1,17 @@
+.headerContainer {
+    height: 30vh;
+    background-color: #294ead;
+    background: linear-gradient(315deg, rgba(32, 191, 85, 0.4) 0%, rgba(1, 187, 239, 0.4) 74%), url("https://images.pexels.com/photos/2422461/pexels-photo-2422461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 2rem 5%;
+    h1 {
+        color: #fff;
+        font-size: 3rem;
+        font-weight: 400;
+    }
+    span {
+        font-weight: 600;
+    }
+}
