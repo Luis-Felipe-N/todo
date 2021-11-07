@@ -3,9 +3,9 @@ import { AiOutlineDelete } from 'react-icons/ai'
 import { useEffect, useState } from 'react'
 
 interface ITaskItem {
-    id: Number,
+    id: number,
     title: string,
-    isComplete: Boolean
+    isComplete: boolean
 }
  
 export function TaskList() {
