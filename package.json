@@ -5,7 +5,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview",
-    "jest": "yarn jest"
+    "test": "yarn jest"
   },
   "dependencies": {
     "react": "^17.0.0",
