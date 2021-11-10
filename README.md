@@ -49,10 +49,5 @@ The app will be available for access on your browser at http://localhost:3000
 ## Autor
 ---
 
-<p align="center" href="https://luisnunes.me/">
- <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/76018201?v=4" width="100px;" alt=""/>
- <br />
- <sub><b>Luis Felipe</b></sub></a> <a href="https://luisnunes.me" title="Luis Felipe">🚀</p>
-
 
 <p align="center" >Feito com ❤️ por Luis Felipe</p>
